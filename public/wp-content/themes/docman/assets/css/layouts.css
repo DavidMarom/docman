@@ -1,0 +1,42 @@
+
+.outter-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/* height: 400px; */
+}
+
+.inner-container {
+	width: 1696px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/* Row Around */
+
+.ra {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	align-items: flex-start;
+	align-items: center;
+}
+
+.rar {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 100%;
+	align-items: center;
+}
+
+.bg-01 {
+	background-color: aquamarine;
+	width: 100px;
+}
+
+.bg-02 {
+	background-color: rgb(170, 105, 51);
+	width: 100px;
+}
