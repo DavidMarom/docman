@@ -2,12 +2,11 @@
 
 <div class="outter-container">
 	<div class="inner-container">
-		<div class="ra">
-			<div class="bg-01">aaa</div>
-			<div class="bg-02">bbb</div>
+		<div class="rb">
+			<div class="sidebar"><?php get_sidebar(); ?></div>
+			<div class="content"><?php get_template_part('content'); ?></div>
 		</div>
 	</div>
 </div>
-
 
 <?php get_footer() ?>

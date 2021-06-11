@@ -18,6 +18,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 @import "./assets/css/layouts.css";
+@import "./assets/css/base.css";
+@import "./assets/css/elements.css";
+
 
 @font-face {
 	font-family: varela;
